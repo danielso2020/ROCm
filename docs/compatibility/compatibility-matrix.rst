@@ -21,21 +21,32 @@ compatibility and system requirements.
 
 .. container:: format-big-table
 
-  .. csv-table::
+  .. csv-table:: :ref:`Operating systems & kernels <OS-kernel-versions>` [#os-compatibility]_
+      :header: "Operating Systems and Kernels", "ROCm 7.2.0", "ROCm 7.1.1", "ROCm6.4.0"
+      :stub-columns: 1
+
+      Ubuntu 24.04.3,Y,Y,N
+      Ubuntu 24.04.2,Y,N,N
+      Ubuntu 22.04.5, Y, Y, Y
+      "RHEL 10.1, 10.0, 9.7, 9.6, 9.4",Y,Y,N
+      "RHEL 9.5, 9.4",N,N,Y
+      RHEL 8.10,Y,Y,Y
+      SLES 15 SP7,Y,Y,N
+      SLES 15 SP6,N,N,Y
+      "Oracle Linux 10",Y,Y,N
+      "Oracle Linux 9",Y,Y,Y
+      "Oracle Linux 8",Y,Y,Y
+      "Debian 13",Y,Y,N
+      "Debian 12",Y,Y,Y
+      Azure Linux 3.0,N,N,Y
+      Rocky Linux 9,Y,Y,N
+      ,.. _architecture-support-compatibility-matrix:,,
+
+ .. csv-table:: :doc:`Architecture <rocm-install-on-linux:reference/system-requirements>`
       :header: "ROCm Version", "7.2.0", "7.1.1", "6.4.0"
       :stub-columns: 1
 
-      :ref:`Operating systems & kernels <OS-kernel-versions>` [#os-compatibility]_,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.2
-      ,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5
-      ,"RHEL 10.1, 10.0, 9.7, 9.6, 9.4","RHEL 10.1, 10.0, 9.7, 9.6, 9.4","RHEL 9.5, 9.4"
-      ,RHEL 8.10,RHEL 8.10,RHEL 8.10
-      ,SLES 15 SP7,SLES 15 SP7,SLES 15 SP6
-      ,"Oracle Linux 10, 9, 8","Oracle Linux 10, 9, 8","Oracle Linux 9, 8"
-      ,"Debian 13, 12","Debian 13, 12",Debian 12
-      ,,,Azure Linux 3.0
-      ,Rocky Linux 9,Rocky Linux 9,
-      ,.. _architecture-support-compatibility-matrix:,,
-      :doc:`Architecture <rocm-install-on-linux:reference/system-requirements>`,CDNA4,CDNA4,
+      ,CDNA4,CDNA4,
       ,CDNA3,CDNA3,CDNA3
       ,CDNA2,CDNA2,CDNA2
       ,CDNA,CDNA,CDNA
