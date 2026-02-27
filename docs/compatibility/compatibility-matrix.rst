@@ -42,11 +42,11 @@ compatibility and system requirements.
       Rocky Linux 9,Y,Y,N
       ,.. _architecture-support-compatibility-matrix:,,
 
- .. csv-table:: :doc:`Architecture <rocm-install-on-linux:reference/system-requirements>`
+ .. csv-table:: 
       :header: "ROCm Version", "7.2.0", "7.1.1", "6.4.0"
       :stub-columns: 1
 
-      ,CDNA4,CDNA4,
+      :doc:`Architecture <rocm-install-on-linux:reference/system-requirements>`,CDNA4,CDNA4,
       ,CDNA3,CDNA3,CDNA3
       ,CDNA2,CDNA2,CDNA2
       ,CDNA,CDNA,CDNA
