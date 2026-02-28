@@ -202,13 +202,12 @@ For detailed information on operating system supported on ROCm 7.2.0 and associa
 Past versions of ROCm compatibility matrix
 ***************************************************
 
-Expand for full historical view of:
+.. container:: format-big-table
 
-.. container:: ROCm 6.0 - Present
   .. csv-table:: :ref:`Operating systems & kernels <OS-kernel-versions>` [#os-compatibility]_
       :header-rows: 1
       :stub-columns: 1
-      
+     
        ROCm Version,7.2.0,7.1.1,7.1.0,7.0.2,7.0.1/7.0.0,6.4.3,6.4.2,6.4.1,6.4.0,6.3.3,6.3.2,6.3.1,6.3.0,6.2.4,6.2.2,6.2.1,6.2.0, 6.1.5, 6.1.2, 6.1.1, 6.1.0, 6.0.2, 6.0.0
       :ref:`Operating systems & kernels <OS-kernel-versions>` [#os-compatibility-past-60]_,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,"Ubuntu 24.04.1, 24.04","Ubuntu 24.04.1, 24.04","Ubuntu 24.04.1, 24.04",Ubuntu 24.04,,,,,,
       ,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,"Ubuntu 22.04.5, 22.04.4","Ubuntu 22.04.5, 22.04.4","Ubuntu 22.04.5, 22.04.4","Ubuntu 22.04.5, 22.04.4","Ubuntu 22.04.5, 22.04.4, 22.04.3","Ubuntu 22.04.4, 22.04.3","Ubuntu 22.04.4, 22.04.3","Ubuntu 22.04.4, 22.04.3","Ubuntu 22.04.4, 22.04.3, 22.04.2","Ubuntu 22.04.4, 22.04.3, 22.04.2"
@@ -222,6 +221,7 @@ Expand for full historical view of:
       ,,,,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,,,,,,,,,,,,
       ,Rocky Linux 9,Rocky Linux 9,Rocky Linux 9,Rocky Linux 9,Rocky Linux 9,,,,,,,,,,,,,,,,,,
 
+Expand for full historical view of:
 
 .. dropdown:: ROCm 6.0 - Present
 
