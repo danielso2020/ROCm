@@ -204,6 +204,25 @@ Past versions of ROCm compatibility matrix
 
 Expand for full historical view of:
 
+.. container:: ROCm 6.0 - Present
+  .. csv-table:: :ref:`Operating systems & kernels <OS-kernel-versions>` [#os-compatibility]_
+      :header-rows: 1
+      :stub-columns: 1
+      
+       ROCm Version,7.2.0,7.1.1,7.1.0,7.0.2,7.0.1/7.0.0,6.4.3,6.4.2,6.4.1,6.4.0,6.3.3,6.3.2,6.3.1,6.3.0,6.2.4,6.2.2,6.2.1,6.2.0, 6.1.5, 6.1.2, 6.1.1, 6.1.0, 6.0.2, 6.0.0
+      :ref:`Operating systems & kernels <OS-kernel-versions>` [#os-compatibility-past-60]_,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.3,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,Ubuntu 24.04.2,"Ubuntu 24.04.1, 24.04","Ubuntu 24.04.1, 24.04","Ubuntu 24.04.1, 24.04",Ubuntu 24.04,,,,,,
+      ,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,Ubuntu 22.04.5,"Ubuntu 22.04.5, 22.04.4","Ubuntu 22.04.5, 22.04.4","Ubuntu 22.04.5, 22.04.4","Ubuntu 22.04.5, 22.04.4","Ubuntu 22.04.5, 22.04.4, 22.04.3","Ubuntu 22.04.4, 22.04.3","Ubuntu 22.04.4, 22.04.3","Ubuntu 22.04.4, 22.04.3","Ubuntu 22.04.4, 22.04.3, 22.04.2","Ubuntu 22.04.4, 22.04.3, 22.04.2"
+      ,,,,,,,,,,,,,,,,,,"Ubuntu 20.04.6, 20.04.5","Ubuntu 20.04.6, 20.04.5","Ubuntu 20.04.6, 20.04.5","Ubuntu 20.04.6, 20.04.5","Ubuntu 20.04.6, 20.04.5","Ubuntu 20.04.6, 20.04.5"
+      ,"RHEL 10.1, 10.0, 9.7, 9.6, 9.4","RHEL 10.1, 10.0, 9.7, 9.6, 9.4","RHEL 10.0, 9.6, 9.4","RHEL 10.0, 9.6, 9.4","RHEL 9.6, 9.4","RHEL 9.6, 9.4","RHEL 9.6, 9.4","RHEL 9.6, 9.5, 9.4","RHEL 9.5, 9.4","RHEL 9.5, 9.4","RHEL 9.5, 9.4","RHEL 9.5, 9.4","RHEL 9.5, 9.4","RHEL 9.4, 9.3","RHEL 9.4, 9.3","RHEL 9.4, 9.3","RHEL 9.4, 9.3","RHEL 9.4, 9.3, 9.2","RHEL 9.4, 9.3, 9.2","RHEL 9.4, 9.3, 9.2","RHEL 9.4, 9.3, 9.2","RHEL 9.3, 9.2","RHEL 9.3, 9.2"
+      ,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,RHEL 8.10,"RHEL 8.10, 8.9","RHEL 8.10, 8.9","RHEL 8.10, 8.9","RHEL 8.10, 8.9","RHEL 8.9, 8.8","RHEL 8.9, 8.8","RHEL 8.9, 8.8","RHEL 8.9, 8.8","RHEL 8.9, 8.8","RHEL 8.9, 8.8"
+      ,SLES 15 SP7,SLES 15 SP7,SLES 15 SP7,SLES 15 SP7,SLES 15 SP7,"SLES 15 SP7, SP6","SLES 15 SP7, SP6",SLES 15 SP6,SLES 15 SP6,"SLES 15 SP6, SP5","SLES 15 SP6, SP5","SLES 15 SP6, SP5","SLES 15 SP6, SP5","SLES 15 SP6, SP5","SLES 15 SP6, SP5","SLES 15 SP6, SP5","SLES 15 SP6, SP5","SLES 15 SP5, SP4","SLES 15 SP5, SP4","SLES 15 SP5, SP4","SLES 15 SP5, SP4","SLES 15 SP5, SP4","SLES 15 SP5, SP4"
+      ,,,,,,,,,,,,,,,,,,,CentOS 7.9,CentOS 7.9,CentOS 7.9,CentOS 7.9,CentOS 7.9
+      ,"Oracle Linux 10, 9, 8","Oracle Linux 10, 9, 8","Oracle Linux 10, 9, 8","Oracle Linux 10, 9, 8","Oracle Linux 9, 8","Oracle Linux 9, 8","Oracle Linux 9, 8","Oracle Linux 9, 8","Oracle Linux 9, 8",Oracle Linux 8.10,Oracle Linux 8.10,Oracle Linux 8.10,Oracle Linux 8.10,Oracle Linux 8.9,Oracle Linux 8.9,Oracle Linux 8.9,Oracle Linux 8.9,Oracle Linux 8.9,Oracle Linux 8.9,Oracle Linux 8.9,,,
+      ,"Debian 13, 12","Debian 13, 12","Debian 13, 12","Debian 13, 12",Debian 12,Debian 12,Debian 12,Debian 12,Debian 12,Debian 12,Debian 12,Debian 12,,,,,,,,,,,
+      ,,,,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,Azure Linux 3.0,,,,,,,,,,,,
+      ,Rocky Linux 9,Rocky Linux 9,Rocky Linux 9,Rocky Linux 9,Rocky Linux 9,,,,,,,,,,,,,,,,,,
+
+
 .. dropdown:: ROCm 6.0 - Present
 
    You can `download the entire .csv <../downloads/compatibility-matrix-historical-6.0.csv>`_ for offline reference.
